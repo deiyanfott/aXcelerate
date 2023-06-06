@@ -35,7 +35,7 @@ The items below were not done as it might come to a point where the requirements
 This is a spring boot application with default port 8080.
 
 ### Endpoints
-See product id mapping above.
+Change {productId} to the appropriate values. See product id mapping above.
 * [Turning on product](http://localhost:8080/api/v1/remote-control/turn-on/{productId})
 * [Turning off product](http://localhost:8080/api/v1/remote-control/turn-off/{productId})
 * [Undo last action](http://localhost:8080/api/v1/remote-control/undo)
